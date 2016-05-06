@@ -11,7 +11,7 @@
 Example:   
 lock   
 faceplayer   
-callasm 0x8800079  //I inserted the code at 0x8800000
+callasm 0x8800079  //I inserted the code at 0x8800000    
 msgbox 0x8FD0013 0x2 //"It's nice, huh?"   
 releaseall   
 end   

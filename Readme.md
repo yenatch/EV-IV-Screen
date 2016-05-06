@@ -6,7 +6,7 @@
 3. Assign the free space you want to use in linker.lsc.   
 4. Open your cmd prompt and type in make. Then press enter.   
 5. Now main.bin should be generated. Paste it to the offset specified in step3.   
-6. Write a script to test (You should callasm to the offset of insertion + 0x79.   
+6. Write a script to test (You should callasm to the offset of insertion + 0x79).   
    
 Example:   
 lock   

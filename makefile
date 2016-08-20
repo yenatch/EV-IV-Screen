@@ -10,6 +10,8 @@ LDFLAGS=-z muldefs
 OBJ := main.o cb_execute.o sub_bg_init.o task_loader.o tiles_load.o string_print.o decrypt_and_print.o load_icons.o task_02.o)
 OBJ := $(addprefix build/,$(OBJ))
 
+$(shell mkdir -p build)
+
 all: main.bin
 	@:
 
